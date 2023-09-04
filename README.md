@@ -22,7 +22,8 @@ Some notes :
 ```
 
 ## Result example
-![image](/uploads/970547dfddc8799de2d0c9e13c2805df/image.png)  
+![image](https://github.com/rusminto/exec-webview/assets/43722553/dbc74193-4ac9-44e6-8a39-d8dd2bc8ace3)
+  
 
 As reminder, use right click to open "Inspect Element".
 
