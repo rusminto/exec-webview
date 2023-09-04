@@ -30,9 +30,9 @@ As reminder, use right click to open "Inspect Element".
 Same like documentation of [webview](https://github.com/webview/webview). To build command you can use command :  
 ```sh
 # Linux
-g++ basic.cc -std=c++11 -Ilibs/webview $(pkg-config --cflags --libs gtk+-3.0 webkit2gtk-4.0) -o build/basic && ./build/basic
+g++ webview.cc -std=c++11 -Ilibs/webview $(pkg-config --cflags --libs gtk+-3.0 webkit2gtk-4.0) -o build/webview
 # macOS
-g++ basic.cc -std=c++11 -Ilibs/webview -framework WebKit -o build/basic && ./build/basic
+g++ webview.cc -std=c++11 -Ilibs/webview -framework WebKit -o build/webview
 # Windows/MinGW
-g++ basic.cc -std=c++14 -mwindows -Ilibs/webview -Ilibs/webview2/build/native/include -ladvapi32 -lole32 -lshell32 -lshlwapi -luser32 -lversion -o build/basic.exe && "build/basic.exe"
+g++ webview.cc -std=c++14 -mwindows -Ilibs/webview -Ilibs/webview2/build/native/include -ladvapi32 -lole32 -lshell32 -lshlwapi -luser32 -lversion -o build/webview.exe
 ```
